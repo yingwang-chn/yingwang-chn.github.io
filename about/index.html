@@ -6,7 +6,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Archives |  Ying Wang
+    about |  Ying Wang
   </title>
   
   <link rel="shortcut icon" href="/favicon.ico" />
@@ -31,50 +31,107 @@
   <div id="app">
     <main class="content">
       <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title">Archives</h1>
+  <article id="page-" class="article article-type-page" itemscope
+  itemprop="blogPost" data-scroll-reveal>
 
+  <div class="article-inner">
     
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2020" class="archive-year">2020</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/01/04/%E4%B8%8D%E4%B8%BA%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%8C%E6%B4%BB%E7%9D%80%E5%B0%B1%E5%A5%BD%E4%BA%86/" class="archive-article-date">
-  <time datetime="2020-01-04T15:15:19.000Z" itemprop="datePublished">01/04</time>
-</a>
+    <header class="article-header">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/01/04/%E4%B8%8D%E4%B8%BA%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%8C%E6%B4%BB%E7%9D%80%E5%B0%B1%E5%A5%BD%E4%BA%86/"
-    >不为了什么，活着就好了</a
-  >
-</h2>
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  about
+</h1>
   
 
     </header>
     
+
     
-  </div>
-</article>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
       
+
+
+      
+
+      
+      <h2 id="Ying-Wang"><a href="#Ying-Wang" class="headerlink" title="Ying Wang"></a>Ying Wang</h2>
+      
+      <!-- 打赏 -->
       
     </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/about/index.html" data-id="ck57wvzjk0001gaenerxy9zoi"
+        class="article-share-link">分享</a>
+      
+    </footer>
+
   </div>
+
   
   
 
   
+
+  
+  
+<!-- valine评论 -->
+<div id="vcomments-box">
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        notify: false,
+        verify: false,
+        app_id: '',
+        app_key: '',
+        path: window.location.pathname,
+        avatar: 'mp',
+        placeholder: '给我的文章加点评论吧~',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
+
+  
+
+</article>
 </section>
       <footer class="footer">
   <div class="outer">
